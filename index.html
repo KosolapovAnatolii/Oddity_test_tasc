@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+
+    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+    <title>Google</title>
+</head>
+<body>
+  <nav class="nav">
+      <div class="nav__menu">
+          <ul class="nav__list">
+              <li class="nav__item">
+                <a href="https://www.gmail.com" class="nav__link">Gmail</a>
+              </li>
+              
+              <li class="nav__item">
+                <a 
+                  href="https://www.google.com/search?sxsrf=AB5stBgNDBXQrSZu9MW7jcE4GmbZKzvvIA:1688590449686&q=scotland+nature&tbm=isch&sa=X&ved=2ahUKEwjdurLPufj_AhXoDxAIHTbgAdgQ0pQJegQIChAB&biw=1336&bih=677&dpr=2.2" 
+                  class="nav__link"
+                >
+                  Зображення
+                </a>
+              </li>
+          </ul>
+
+          <span 
+            class="iconify nav__icon" 
+            data-icon="gg:menu-grid-r" 
+            data-inline="false"
+          >
+          </span>
+
+          <a href="#" class="nav__button">
+            Увійти
+          </a>
+      </div>
+  </nav>
+
+    <main class="main">
+      <section class="section-logo">
+        <img 
+          id="changedLogo"
+          class="section-logo__img"
+          src="images/google-logo.jpg" 
+          alt="google-logo"
+        >
+      </section>
+
+      <section class="section-input">
+          <span 
+            class="iconify search-icon input-icon" data-icon="ant-design:search-outlined"data-inline="false"
+          >
+          </span>
+
+          <input type="text" class="input">
+          <div class="input__actions">
+            <span 
+              class="iconify keyboard-icon input-icon" 
+              data-icon="uil:keyboard" data-inline="false"
+            >
+            </span>
+
+            <span 
+              class="iconify microphone-icon input-icon" 
+              data-icon="bi:mic" 
+              data-inline="false"
+            >
+            </span>
+
+            <span 
+              class="iconify camera-icon input-icon" 
+              data-icon="bi:camera" data-inline="false"
+            >
+            </span>
+          </div>
+
+      </section>
+
+      <section class="section-choice">
+        <button class="section-choice__button">
+          <p>Пошук Google</p>
+        </button>
+
+        <button class="section-choice__button" id="luckyButton">
+          <p>Мені пощастить</p>
+        </button>
+      </section>
+
+      <section class="section-language">
+          <p>Мова Google : 
+            <a href="#">Українська</a> 
+          </p>
+      </section>
+
+    </main>
+
+    <footer class="footer">
+        <div class="footer__country">
+          <a 
+            href="#" 
+            class="footer__country-name"
+          >
+            Україна
+          </a>
+        </div>
+        <div class="footer__menu">
+            <ul class="footer__menu-list about__list">
+                <li class="about__item">
+                  <a href="#">Про Google</a>
+                </li>
+                <li class="about__item">
+                  <a href="#">Для бізнесу</a>
+                </li>
+                <li class="about__item">
+                  <a href="#">Реклама</a>
+                </li>
+                <li class="about__item">
+                  <a href="#">Як працює пошук</a>
+                </li>
+            </ul>
+
+            <ul class="footer__menu-list policy__list">
+                <li class="policy__item">
+                  <a href="#">Конфеденційність</a>
+                </li>
+                <li class="policy__item">
+                  <a href="#">Умови</a>
+                </li>
+                <li class="policy__item">
+                  <a href="#">Налаштування</a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+
+<script src="script.js"></script>
+</body>
+</html>
